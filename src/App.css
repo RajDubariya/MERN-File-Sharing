@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-container {
+    background: #1e293b;
+    height: 100vh;
+    width: 100%;
+}
+
+.circle {
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom, #22d3ee 40%, #34d399 70%, #6366f1 30%);
+    filter: blur(120px);
+}
+
+.circle1 {
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom right, #3b82f6 20%, #22d3ee 60%, #fe6c4c 10%);
+    filter: blur(120px);
+}
